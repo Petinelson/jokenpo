@@ -1,0 +1,63 @@
+.jokenpo {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.area {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-items: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 700px;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:darkkhaki;
+    color: #000000;
+}   
+
+.pontuacao {
+    font-size: 30px;
+}
+
+.escolha-pc img{
+    filter: brightness(0%);
+}
+
+@media screen and (max-width: 467px) {
+    .escolha{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .area {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        justify-items: center;
+        align-items: center;
+        background-color: antiquewhite;
+        border-radius: 40px;
+    }
+}
