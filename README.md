@@ -45,7 +45,7 @@ Acesse - [Demonstração do Projeto](https://jokenpo-ds.onrender.com/)
 2. Abra o arquivo `index.html` no seu navegador de preferência.
 3. Selecione sua opção (pedra, papel ou tesoura) e clique no botão "jogar" para iniciar a partida.
 
-## Motivação
+## Reflexão
 
 > "Cada erro é uma chance de recomeçar com mais sabedoria. Continue tentando, pois são as escolhas e tentativas que nos levam ao sucesso."
 
